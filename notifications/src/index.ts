@@ -1,6 +1,6 @@
 import express from 'express';
 import "dotenv/config"
-import { notificationRouter } from './infrastructure/routes/notificationRoutes';
+import { notificationRouter } from './whatsapp/infrastructure/routes/notificationRoutes';
 
 const app = express();
 
